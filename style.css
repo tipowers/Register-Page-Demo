@@ -13,7 +13,32 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    color: blue;
+    color: black;
     font-weight: bold;
     margin-right: 20px;
+}
+
+.main-container {
+    background-color: lightcyan;
+    height: 100vh;
+}
+
+.form-container {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    height: 50vh;
+}
+
+.form-fields {
+    text-align: center;    
+}
+
+.signup {
+    text-align: left;
+    margin-left: .5em;
+}
+
+div {
+    margin: 1em 1em 1em 1em;
 }
