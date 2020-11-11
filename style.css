@@ -1,10 +1,11 @@
 nav {
     background-color: lightblue;
     position: fixed;
+    box-shadow: 0.15em 0.15em 0.5em rgb(117, 117, 117);
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 50px;  
+    height: 60px;  
 }
 
 nav ul {
@@ -28,6 +29,8 @@ nav ul li {
     vertical-align: middle;
     background-color: white;
     height: 50vh;
+    box-shadow: 0.15em 0.15em 0.5em rgb(117, 117, 117);
+    border-radius: 2%;
 }
 
 .form-fields {
@@ -36,9 +39,37 @@ nav ul li {
 
 .signup {
     text-align: left;
-    margin-left: .5em;
+    margin-left: .75em;
 }
 
 div {
     margin: 1em 1em 1em 1em;
+}
+
+button {
+    color: white;
+    background: rgb(81, 150, 240);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.submit-button {
+    min-width: 100%;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0 -1em;
+    padding: 0;
+}
+
+.social-media__item {
+    margin: 0 .5em;
+}
+
+.social-media__link {
+    color: #000000;
+    padding: .5em
 }
