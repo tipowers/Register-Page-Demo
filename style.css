@@ -1,5 +1,9 @@
+* {
+    margin: 0;
+}
+
 nav {
-    background-color: lightblue;
+    background-color: white;
     position: fixed;
     box-shadow: 0.15em 0.15em 0.5em rgb(117, 117, 117);
     top: 0px;
@@ -17,33 +21,36 @@ nav ul li {
     color: black;
     font-weight: bold;
     margin-right: 20px;
+    margin-top: 12px;
 }
 
 .main-container {
-    background-color: lightcyan;
+    background-color: rgb(29, 168, 211);
     height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-container {
-    display: table-cell;
-    vertical-align: middle;
     background-color: white;
-    height: 50vh;
+    height: 27vh;
+    width: 250px;
     box-shadow: 0.15em 0.15em 0.5em rgb(117, 117, 117);
-    border-radius: 2%;
+    border-radius: 5px 5px;
+    text-align: center;
+    overflow: auto;
 }
 
 .form-fields {
-    text-align: center;    
+    text-align: center;
+    margin: 10px;    
 }
 
 .signup {
     text-align: left;
-    margin-left: .75em;
-}
-
-div {
-    margin: 1em 1em 1em 1em;
+    margin-left: 1.3em;
+    margin-top: 10px;
 }
 
 button {
@@ -54,14 +61,15 @@ button {
 }
 
 .submit-button {
-    min-width: 100%;
+    min-width: 75%;
+    margin-top: 5px;
 }
 
 .social-media {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 1.5em 0 -1em;
+    margin: 1.3em 0 -1em;
     padding: 0;
 }
 
